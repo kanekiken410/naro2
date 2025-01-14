@@ -57,7 +57,7 @@ if ($text === '/start') {
         'reply_markup' => json_encode([
             'inline_keyboard' => [
                 [
-                    ['text' => 'Start Now', 'web_app' => ['url' => '']],  // زر للبدء
+                    ['text' => 'Start Now', 'web_app' => ['url' => 'https://naro1.vercel.app/']],  // زر للبدء
                     ['text' => 'Join Our Community', 'url' => 'https://t.me/naro_community'] // رابط الجروب
                 ]
             ]
